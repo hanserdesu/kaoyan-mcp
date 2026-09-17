@@ -1,0 +1,13 @@
+{
+  "pack": "demo",
+  "deliver": {
+    "policy": "auto",
+    "printer": "",
+    "paper": "A4",
+    "copies": 1
+  },
+  "learn": {
+    "variant": "pooled_retry"
+  }
+}
+

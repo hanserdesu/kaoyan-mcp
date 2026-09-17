@@ -1,0 +1,7 @@
+gaoshu       nodes=24    kp=24    ex=0     pages=586  mode=manual
+xiandai      nodes=7     kp=7     ex=0     pages=213  mode=manual
+gailv        nodes=6     kp=6     ex=0     pages=173  mode=manual
+wangdao-ds   nodes=478   kp=275   ex=174   pages=404  mode=outline
+wangdao-co   nodes=203   kp=135   ex=54    pages=340  mode=manual
+wangdao-os   nodes=435   kp=331   ex=88    pages=372  mode=outline
+wangdao-cn   nodes=419   kp=246   ex=144   pages=316  mode=outline

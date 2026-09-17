@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kaoyan-mcp"
+version = "0.1.0"
+description = "考研私教 MCP 服务：把知识库、间隔复习、出卷与学习算法封装成任意 AI 客户端可调用的工具"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "kaoyan-mcp contributors" }]
+keywords = ["mcp", "kaoyan", "spaced-repetition", "knowledge-base", "llm", "tutor"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: Chinese (Simplified)",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/hanserdesu/kaoyan-mcp"
+Issues = "https://github.com/hanserdesu/kaoyan-mcp/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+kaoyan-mcp = "kaoyan_mcp.__main__:main"
+
+[tool.setuptools]
+packages = ["kaoyan_mcp", "kaoyan_mcp.kb"]
